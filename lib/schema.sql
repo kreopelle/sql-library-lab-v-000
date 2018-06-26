@@ -10,14 +10,16 @@ CREATE TABLE sub_genre (
   name TEXT
 );
 
-CREATE TABLE series (
+CREATE TABLE authors (
   id INTEGER PRIMARY KEY,
-
+  name TEXT
 );
 
-CREATE TABLE series (
+CREATE TABLE books (
   id INTEGER PRIMARY KEY,
-
+  title TEXT,
+  year INTEGER,
+  series_id INTEGER
 );
 
 CREATE TABLE series (
