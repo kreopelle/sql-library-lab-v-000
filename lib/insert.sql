@@ -17,9 +17,9 @@ INSERT INTO books (title, year, series_id) VALUES
 ('The Fellowship of the Ring'),
 ('The Two Towers'),
 ('Return of the King'),
-("The Philosopher's Stone"),
-("The Chamber of Secrets"),
-("The Prisoner of Azkaban")
+("The Philosopher's Stone", 1997),
+("The Chamber of Secrets", 1998),
+("The Prisoner of Azkaban", 1999)
 ;
 
 INSERT INTO character_books (character_id, book_id) VALUES
