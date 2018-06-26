@@ -22,7 +22,10 @@ INSERT INTO books (title, year, series_id) VALUES
 ("The Prisoner of Azkaban", 1999, 2)
 ;
 
-INSERT INTO characters (name, motto, species, author_id, series_id)
+INSERT INTO characters (name, motto, species, author_id, series_id) VALUES
+('Frodo', 'I will carry the ring.', 'Hobbit', 1, 1),
+
+;
 
 INSERT INTO character_books (character_id, book_id) VALUES
 
