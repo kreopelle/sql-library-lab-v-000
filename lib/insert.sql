@@ -14,6 +14,6 @@ INSERT INTO books (title, year, series_id) VALUES
 
 ;
 
-INSERT INTO character_books () VALUES
+INSERT INTO character_books (character_id, book_id) VALUES
 
 ;
