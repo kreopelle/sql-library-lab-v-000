@@ -24,9 +24,30 @@ INSERT INTO books (title, year, series_id) VALUES
 
 INSERT INTO characters (name, motto, species, author_id, series_id) VALUES
 ('Frodo', 'I will carry the ring.', 'Hobbit', 1, 1),
-
+('Gandalf the White', 'You shall not pass.', 'Wizard', 1, 1),
+('Gimli', 'Tonight I shall dream of little bearded women!', 'Dwarf', 1, 1),
+('Mouth of Sauron', 'Hehhhh', 'Unknown', 1, 1),
+('Harry Potter', "Hello, I'm Harry Potter!", 'Wizard', 2, 2),
+('Hermione Granger', "Wingardium Levisoa", 'Witch', 2, 2),
+('Sirius Black', 'I love you Harry!', 'Werewolf', 2, 2),
+('Voldemort', 'I will destroy you', 'Wizard', 2, 2)
 ;
 
 INSERT INTO character_books (character_id, book_id) VALUES
-
+(1, 1),
+(1, 2),
+(1, 3),
+(2, 3),
+(3, 1),
+(3, 2),
+(3, 3),
+(4, 3),
+(5, 4),
+(5, 5),
+(5, 6),
+(6, 4),
+(6, 5),
+(6, 6),
+(7, 6),
+(8, 4)
 ;
