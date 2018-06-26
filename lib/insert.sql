@@ -1,6 +1,6 @@
 INSERT INTO series (title, author_id, subgenre_id) VALUES
-('Lord of the Rings'),
-('Harry Potter')
+('Lord of the Rings', 1, 1),
+('Harry Potter', 2, 2)
 ;
 
 INSERT INTO subgenres (name) VALUES
@@ -9,7 +9,8 @@ INSERT INTO subgenres (name) VALUES
 ;
 
 INSERT INTO authors (name) VALUES
-('J.R.R. Tolkein')
+('J.R.R. Tolkein'),
+('J.K. Rowling')
 ;
 
 INSERT INTO books (title, year, series_id) VALUES
